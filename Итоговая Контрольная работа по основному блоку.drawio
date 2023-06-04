@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-06-04T11:15:42.404Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0 (Edition Yx GX)" version="21.3.7" etag="vVE80u8YHvhxrAzBs85W" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-04T11:33:23.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0 (Edition Yx GX)" etag="dQGX21pV-p-jSxY-jcs8" version="21.3.7" type="github">
   <diagram name="Страница 1" id="pXWp_sgLyXvckefl5owK">
-    <mxGraphModel>
+    <mxGraphModel dx="996" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIlAw4OXE2ESYjvhZhYt-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="354" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-2" value="Start" style="text;strokeColor=#2D7600;align=center;fillColor=#60a917;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="384" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIlAw4OXE2ESYjvhZhYt-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-4" value="massive =&amp;nbsp;[“Hello”, “2”, “world”, “:-)”]&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="301" y="310" width="226" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-16" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qIlAw4OXE2ESYjvhZhYt-7" target="qIlAw4OXE2ESYjvhZhYt-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="635" />
+              <mxPoint x="240" y="636" />
+              <mxPoint x="160" y="636" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-21" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qIlAw4OXE2ESYjvhZhYt-7" target="qIlAw4OXE2ESYjvhZhYt-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-7" value="if massive[index] =&amp;gt; 3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="311" y="585" width="206" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIlAw4OXE2ESYjvhZhYt-12" target="qIlAw4OXE2ESYjvhZhYt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-12" value="for(int index = 0; index &amp;lt; massive.Lenght;index++" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="311" y="450" width="206" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIlAw4OXE2ESYjvhZhYt-19" target="qIlAw4OXE2ESYjvhZhYt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-19" value="print massive[index]" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="100" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIlAw4OXE2ESYjvhZhYt-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-22" value="index++" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="640" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIlAw4OXE2ESYjvhZhYt-24" value="Finish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="100" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
